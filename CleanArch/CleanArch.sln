@@ -11,9 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.loC", "Infra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Data", "Infrastructure.Data", "{26EE83A8-7DB3-474F-ACD5-610BD02238CB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{F2745FF7-5CC6-4DFD-9366-8025AF32D905}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F2745FF7-5CC6-4DFD-9366-8025AF32D905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{7F58D5AC-0E63-4081-84D2-BA9C8337D65D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{7F58D5AC-0E63-4081-84D2-BA9C8337D65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{F52FD133-0E1B-47F6-904C-E59328611FEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +27,17 @@ Global
 		{7F58D5AC-0E63-4081-84D2-BA9C8337D65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F58D5AC-0E63-4081-84D2-BA9C8337D65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F58D5AC-0E63-4081-84D2-BA9C8337D65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52FD133-0E1B-47F6-904C-E59328611FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52FD133-0E1B-47F6-904C-E59328611FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52FD133-0E1B-47F6-904C-E59328611FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52FD133-0E1B-47F6-904C-E59328611FEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7F58D5AC-0E63-4081-84D2-BA9C8337D65D} = {F2745FF7-5CC6-4DFD-9366-8025AF32D905}
+		{F52FD133-0E1B-47F6-904C-E59328611FEF} = {8F379DB2-19E8-448D-96F8-F9E79F306C2D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8DB725D-CC45-495A-9656-BD631D6C7469}
